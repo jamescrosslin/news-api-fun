@@ -1,0 +1,21 @@
+.card {
+  height: 200px;
+  width: 400px;
+  margin: 0 25vw;
+}
+
+.title {
+  margin: auto;
+  width: 100%;
+}
+
+.news {
+  background-color: tomato;
+  opacity: 0.4;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

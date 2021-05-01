@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media - Now with News!</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Welcome to Social Media!</h1>
+      <% for (let i=0; i < data.length; i++) { %>
+      <article class="card">
+        <h2><%= data[i].username %></h2>
+        <p><%= data[i].post %></p>
+      </article>
+      <article class="card news">
+        <div></div>
+      </article>
+      <% } %>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
